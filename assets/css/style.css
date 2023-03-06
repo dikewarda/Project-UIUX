@@ -1,0 +1,529 @@
+@media screen and (max-width: 576px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #1C1A29;
+        font-family: 'Niramit', sans-serif;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    .cover {
+        background-color: #38354B;
+        border-radius: 30px;
+    }
+
+    .box {
+        background-color: #27224B;
+    }
+
+    .box-register {
+        border-radius: 10px;
+    }
+
+    .box h4 {
+        opacity: 0.4;
+    }
+
+    .box .form-register {
+        font-size: 12px;
+    }
+
+    p.forgot {
+        font-size: 11px;
+    }
+
+    p.forgot span.here {
+        font-weight: bold;
+    }
+
+    .button-login {
+        background-color: #1C1A29;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    span.or {
+        font-weight: bold;
+    }
+
+    .btn-sign {
+        width: 80%;
+        background-color: #1C1A29;
+    }
+
+    .navigation {
+        max-height: 70px;
+        background-color: #2F2B47 !important;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .nav-link p {
+        font-size: 10px;
+    }
+
+    .sugiyo {
+        font-size: 11px;
+    }
+
+    .button-home {
+        background-color: #38354B;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .button-xxi {
+        background-color: #005413;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .playing {
+        font-size: 20px;
+    }
+
+    .see {
+        font-size: 14px;
+        font-weight: 300;
+        opacity: 0.7;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .rating {
+        font-weight: 300;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+    .genre {
+        width: 80%;
+    }
+
+    .promo {
+        border-radius: 30px;
+        background-color: #27224B;
+    }
+
+    .seat {
+        font-size: 20px;
+    }
+
+    .background {
+        height: 180px;
+        background-image: url('../img/preview.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .trailer {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .detail {
+        margin-top: -40px;
+    }
+
+    .detail-title {
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+    .title-description {
+        font-weight: 500;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+
+    .description {
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .rate {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .hd {
+        font-weight: 500;
+        font-size: 9px;
+    }
+
+    .dolby {
+        font-weight: 500;
+        font-size: 8px;
+    }
+
+    .sinopsis {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    img.line {
+        height: 10%;
+    }
+
+    .cover-day {
+        background-color: #3B2C49;
+        border-radius: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .cover-location {
+        background-color: #3B2C49;
+        border-radius: 20px;
+    }
+
+    .text-location {
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    .detail-location {
+        font-weight: 300;
+        font-size: 9px;
+        opacity: 0.5;
+    }
+
+    .dimension {
+        font-weight: 700;
+        font-size: 13px;
+        opacity: 0.5;
+    }
+
+    .day {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .days {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .times {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .time {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .sort {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .title-location {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .location-profile {
+        margin-right: 10px;
+    }
+
+    .kota {
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 0.85;
+    }
+
+    .location-unused {
+        background-color: #1C1A29;
+    }
+
+    .location-used {
+        background-color: #807F86;
+    }
+
+    .location-kota {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .tinggi {
+        height: 550px;
+    }
+
+    .logo-profile {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .box-profile {
+        border-radius: 25px;
+    }
+
+    .text-profile {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .switch {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .payment-title {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .regular-seat {
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 0.6;
+    }
+
+    .price-regular {
+        font-weight: 300;
+        font-size: 15px;
+        opacity: 0.85;
+    }
+
+    .two {
+        font-weight: 300;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+    .price-total {
+        font-weight: 600;
+        font-size: 20px;
+        opacity: 0.85;
+    }
+
+    .recent {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .phone-number {
+        font-weight: 500;
+        font-size: 15px;
+        opacity: 0.85;
+    }
+
+    .account-number {
+        font-weight: 500;
+        font-size: 15px;
+        opacity: 0.3;
+    }
+
+    .cover-ticket {
+        background-color: #3B2C49;
+        border-radius: 6px;
+    }
+
+    .ticket-title {
+        font-weight: 600;
+        font-size: 16px;
+        opacity: 0.85;
+    }
+
+    .ticket-studio {
+        font-weight: 600;
+        font-size: 12px;
+        opacity: 0.85;
+    }
+
+    .ticket-time {
+        font-weight: 500;
+        font-size: 10px;
+        opacity: 0.65;
+    }
+
+    .ticket-no {
+        font-weight: 600;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+
+    .ticket-number {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .ticket-seat {
+        font-weight: 600;
+        font-size: 14px;
+        opacity: 0.5;
+    }
+
+    .ticket-seat {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .history-time {
+        font-weight: 500;
+        font-size: 8px;
+        opacity: 0.65;
+    }
+
+    .template {
+        background-image: url('../img/template2.png');
+        background-size: cover;
+    }
+
+    .title-detail {
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    .location-detail {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .detail-date {
+        font-weight: 500;
+        font-size: 15px;
+        opacity: 0.6;
+    }
+
+    .detail-time {
+        font-weight: 500;
+        font-size: 20px;
+        opacity: 0.85;
+    }
+
+    .show {
+        margin-bottom: 125px;
+    }
+
+    .template-new {
+        background-image: url('../img/template3.png');
+        background-size: cover;
+    }
+
+    .margin-top {
+        margin-top: 50px;
+    }
+
+    .image-detail {
+        margin-top: -40px;
+    }
+
+    .order-title {
+        font-weight: 600;
+        font-size: 20px;
+        opacity: 0.85;
+    }
+
+    .order-location {
+        font-weight: 600;
+        font-size: 15px;
+        opacity: 0.85;
+    }
+
+    .order-time {
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.65;
+    }
+
+    .order-number-title {
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 0.6;
+    }
+
+    .order-number-text {
+        font-weight: 400;
+        font-size: 20px;
+        opacity: 0.85;
+    }
+
+    .order-price {
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 0.6;
+    }
+
+    .order-total {
+        font-size: 30px;
+        font-weight: 600;
+        opacity: 0.85;
+    }
+
+    .seat-box1 {
+        background-color: #1A2C50;
+        width: 18px;
+        height: 18px;
+    }
+
+    .seat-box2 {
+        background-color: #38354B;
+        width: 18px;
+        height: 18px;
+    }
+
+    .seat-box3 {
+        background-color: #251977;
+        width: 18px;
+        height: 18px;
+    }
+
+    .seat-available {
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+    .seat-choose1 {
+        background-color: #38354B;
+        width: 18px;
+        height: 18px;
+        font-weight: 300;
+        font-size: 10px;
+        opacity: 0.6;
+    }
+
+    .seat-choose2 {
+        background-color: #1A2C50;
+        width: 18px;
+        height: 18px;
+        font-weight: 300;
+        font-size: 10px;
+        opacity: 0.6;
+    }
+
+    .seat-choose3 {
+        background-color: #251977;
+        width: 18px;
+        height: 18px;
+        font-weight: 300;
+        font-size: 10px;
+        opacity: 0.6;
+    }
+
+    .information {
+        background-color: #38354B;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .seat-location {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .children {
+        font-weight: 300;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+}
